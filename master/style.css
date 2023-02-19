@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Montserrat');
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Abel', sans-serif
+*/
+html {
+	 min-height: 100%;
+	 position: relative;
+}
+body {
+	 color: #404040; 
+   background-color: hsl(0, 0%, 96%);
+  /*
+	 margin-bottom: 60px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Abel', sans-serif;
+  background-image: url(httP://michaeldotolo.com/files/lightstudy_5c.png);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  */
+}
+
+h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-size: 14px;
+  margin: 0px 0px 0px 30px;
+}
+h2 span {
+  color: #6fdafc;
+  font-style: normal;  
+}
+h2.subheading {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+div.menu {
+  margin-top: 50px;
+}
+.whiteFont {color: #fff;}
+.lightFont {color:#7f7f7f;}
+.blueFont {color:#2196F3;}
+
+.padding20 {padding: 20px;}
+/*.padding40 {padding: 40px;} */
+
+.greyBackground {background-color: hsl(0, 0%, 28%);}
+.blackBackground {background-color: hsl(0, 0%, 0%);}
+
+.lightFont {
+	 color:#7f7f7f; 
+}
+
+nav {
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+.navbar-default .navbar-toggle {border-color: rgba(255,255,255,0);}
+.navbar-default .navbar-toggle:hover {background: rgba(33,150,243,0.1)}
+
+.navbar li {
+	 font-size: 16px;
+	 text-transform: uppercase;
+}
+a.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+}
+.navbar, .navbar-collapse {
+	border: 0;
+	background: none;
+  border-radius: 0;
+}
+
+.navbar {
+  margin: 0;
+}
+.navbar li {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar li a:hover, .active a {
+	 color: #6fdafc !important;
+	 background: none !important;
+}
+.container {
+}
+footer {
+  background: rgb(117, 115, 115);
+ 	bottom: 0;
+	width: 100%;
+	font-size: 13px;
+	position: relative;
+  text-align: center;
+}
+
+header {
+  margin-top: 0px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-page {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 0em .75em;
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.title-page span {
+  color: #6fdafc;
+  font-style: normal; 
+}
+img {
+  margin-bottom: 10px;
+}
+.tooTall {
+  max-height: 280px; 
+  margin: auto;
+}
+.contentBackground, .card {
+  margin: 10px 0; /* Margin for cards when columns transform */
+  padding: 1.75em 1.25em;
+  /*
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 8px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0 3px 8px rgba(0,0,0,0.28);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.28);
+  */
+}
+.columns a {
+  display: inline-block;
+  width: 49%;
+}
+.w3-third {
+  margin-bottom: 10px;
+}
+.w3-green, .w3-hover-green:hover {
+  /* background: none !important;
+  color: black !important; */
+}
+.description {
+  text-align: justify;
+  padding-top: 0px;
+  max-width: 380px;
+}
+.description h4 {
+  text-align: left;
+}
+.intro {
+  font-weight: 100;
+}
+.description > h4 {
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.settings-margin {
+  margin-top:50px; /* 50px = nav size */
+}
+
+@media (max-width: 1080px) {
+.columns a {
+  width: 100%;
+} 
+}
+
+@media (min-width: 1200px)
+grid.less:7
+.container {
+    width: 100%;
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}

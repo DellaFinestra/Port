@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "plugin-name": {
+            "name": "Porto",
+            "repo": " ",
+            "zip": " ",
+            "summary": " ",
+            "version": "1.0.0",
+            "image": " "
+        }
+    }
+}
